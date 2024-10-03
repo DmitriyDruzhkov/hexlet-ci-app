@@ -1,1 +1,5 @@
+make setup
 
+make test 
+
+make lint
