@@ -12,11 +12,7 @@ jobs:
       # экшен — выполняет какую-то задачу
       # checkout — клонирует репозиторий
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
       # run – произвольная bash-команда
       # ls -la выведет содержимое текущего репозитория
       - run: make say-hello
-make setup
-
-make test 
-
-make lint
